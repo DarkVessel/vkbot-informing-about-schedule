@@ -1,0 +1,31 @@
+{
+  "name": "vkbot-informing-about-schedule",
+  "version": "1.0.0",
+  "description": "VK bot that informs about changes in the schedule of our college.",
+  "main": "src/index.ts",
+  "repository": "https://gitlab.com/DarkVessel/vkbot-informing-about-schedule.git",
+  "author": "Жора Змейкин <rs5334819@gmail.com>",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "ts-node ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.11.0",
+    "@typescript-eslint/parser": "^5.40.1",
+    "dotenv": "^16.0.3",
+    "eslint-plugin-mocha": "^10.1.0",
+    "google-spreadsheet": "^3.3.0",
+    "mocha": "^10.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
